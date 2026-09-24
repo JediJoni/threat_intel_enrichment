@@ -1,0 +1,74 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ed25519_*
+
+# Generated outputs
+out/*
+!out/.gitkeep
+
+# Local caches
+.cache/
+cache/
+*.cache
+out/cache.jsonl
+
+# Sensitive or non-public data
+data/raw/
+data/private/
+data/production/
+data/customer/
+data/internal/
+
+# Large generated datasets
+*.parquet
+*.feather
+*.arrow
+
+# Logs
+*.log
